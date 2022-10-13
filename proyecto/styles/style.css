@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "WS";
+    src: url("./fonts/WS.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  } 
+
+#hero{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container{
+    position: relative;
+    font-family: "WS";
+    color: #CC9544;
+    font-size: 300%;
+    text-align: center;
+   
+}
+
+#playPauseBtn{
+    font-family: "WS";
+    font-size: 150%;
+    border: solid #1C0A00;
+    color: #CC9544;
+    text-decoration: none;
+    padding: 0.5%;
+    background-color: #1c0a0000;
+    width: 5rem;
+    margin: 2rem;
+    
+}
+
+#playPauseBtn:hover {
+    background-color: #1c0a00bd;
+    text-decoration:  none;
+}
+
+#button {
+    border: solid #1C0A00;
+    color: #CC9544; 
+    text-decoration: none;
+    padding: 2.5%;
+    width: 25%;
+    margin-top: 10%;
+}
+#button:hover {background-color: #1c0a00bd; text-decoration:  none; }
+#button:hover #arrowrigth {display: none;}
+#button #arrowdown {display: none;}
+#button:hover #arrowdown {display: inline;}

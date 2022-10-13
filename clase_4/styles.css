@@ -1,0 +1,46 @@
+*{ 
+margin: 0;
+padding: 0;
+border: none;
+border-collapse: collapse;
+}
+
+.container{
+    background-color: green;
+}
+
+.caja{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+.uno{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+}
+.dos{
+    background-color: yellow;
+}
+.tres{
+    background-color: red;
+}
+.cuatro{
+    background-color: blueviolet;
+}
+.cinco{
+    background-color: brown;
+}
+.seis{
+    background-color: aqua;
+}
+.siete{
+    background-color:coral;
+}
+.ocho{
+    background-color:darkmagenta;
+}
+
+

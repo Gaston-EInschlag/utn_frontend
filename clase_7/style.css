@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20vh;
+
+}
+
+
+
+.container{
+    background-image: linear-gradient(blue, red);
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+
+.formulario{
+    background-color: white;
+    width: 30vw;
+    height: 55vh;
+    margin-left: 5vw ;
+}
+
+.dato{  
+    margin: 5vh;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 1em gray;
+    color: gray;
+    display: flex;
+}
+
+
+
+
+
+
+/* *
+
+
+
+
+
+.container{
+
+    
+    background-image: linear-gradient(blue, red);
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25%;
+
+}
+
+.formulario {
+    
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 25vw;
+        margin: 30%;
+        
+}
+
+h1{margin-bottom: 20%;
+    
+}
+
+.dato{  
+    width: 0vw;
+    height: 5vh;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 1em gray;
+    color: gray;
+    
+
+    
+}
+
+#button{
+    margin: 3%;
+    background-image: linear-gradient(blue, red);
+    width: 50%;
+    text-align: center;
+    
+
+} */
+
+
+
+    
